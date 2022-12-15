@@ -1,5 +1,5 @@
 // Start of UML-model
-=== Pakke: «ApplicationSchema» FKB-Vann-5.0
+=== Pakke: «ApplicationSchema» FKB-Vann-5.0.1
 *Definisjon:* Spesifikasjonen beskriver geografisk beliggenhet, forløp og form for bekker, elver, kanaler, grøfter, innsjøer, isbreer og den topografiske delen av kyst og sjø. 
 Kystkonturen er en del av FKB-Vann og fra og med FKB-Vann versjon 4.6 forvaltes Primærdata Kystkontur som en del av FKB-Vann.
 
@@ -28,7 +28,7 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |FKB-Vann
  
 |SOSI_modellstatus
-|gyldig
+|utkast
  
 |SOSI_spesifikasjonstype
 |produktspesifikasjon
@@ -37,10 +37,10 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |5.0
  
 |targetNamespace
-|https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0
+|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0
  
 |version
-|5.0
+|5.0.1
  
 |xmlns
 |app
@@ -547,6 +547,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
 |<<medium,«CodeList» Medium>>
 |Profilparametre i tagged values: 
 |
+defaultCodeSpace: https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/medium + 
 SOSI_datatype: T + 
 SOSI_lengde: 1 + 
 SOSI_navn: MEDIUM + 
@@ -649,6 +650,20 @@ SOSI_navn: MEDIUM +
 [cols="20,80"]
 |===
 |*Rollenavn:* 
+|*avgrensesAvVannFiktivGrense*
+ 
+|Definisjon: 
+|delelinjer mellom tilstøtende vannflater
+ 
+|Multiplisitet: 
+|[0..*]
+ 
+|Til klasse
+|<<vannfiktivgrense,«FeatureType» VannFiktivGrense>>
+|===
+[cols="20,80"]
+|===
+|*Rollenavn:* 
 |*avgrensesAvElvekant*
  
 |Definisjon: 
@@ -659,20 +674,6 @@ SOSI_navn: MEDIUM +
  
 |Til klasse
 |<<elvekant,«FeatureType» Elvekant>>
-|===
-[cols="20,80"]
-|===
-|*Rollenavn:* 
-|*avgrensesAvVannFiktivGrense*
- 
-|Definisjon:
-|delelinjer mellom tilstøtende vannflater
- 
-|Multiplisitet: 
-|[0..*]
- 
-|Til klasse
-|<<vannfiktivgrense,«FeatureType» VannFiktivGrense>>
 |===
  
 [discrete]
@@ -858,20 +859,6 @@ SOSI_navn: VANNBR +
 [cols="20,80"]
 |===
 |*Rollenavn:* 
-|*avgrensesAvKanalkant*
- 
-|Definisjon: 
-|avgrensningslinje av kanal, dvs. der stor vannføring normalt går
- 
-|Multiplisitet: 
-|[0..*]
- 
-|Til klasse
-|<<kanalkant,«FeatureType» Kanalkant>>
-|===
-[cols="20,80"]
-|===
-|*Rollenavn:* 
 |*avgrensesAvVannFiktivGrense*
  
 |Definisjon: 
@@ -882,6 +869,20 @@ SOSI_navn: VANNBR +
  
 |Til klasse
 |<<vannfiktivgrense,«FeatureType» VannFiktivGrense>>
+|===
+[cols="20,80"]
+|===
+|*Rollenavn:* 
+|*avgrensesAvKanalkant*
+ 
+|Definisjon: 
+|avgrensningslinje av kanal, dvs. der stor vannføring normalt går
+ 
+|Multiplisitet: 
+|[0..*]
+ 
+|Til klasse
+|<<kanalkant,«FeatureType» Kanalkant>>
 |===
  
 [discrete]
@@ -1108,7 +1109,7 @@ SOSI_navn: REGULERT +
 |peker til eksternt system som inneholder mer informasjon om objekttypen
  
 |Multiplisitet: 
-|[0..*]
+|[0..1]
  
 |Type: 
 |http://skjema.geonorge.no/SOSI/basistype/URI[URI]
@@ -1476,6 +1477,20 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 |Til klasse
 |<<snøisbrekant,«FeatureType» SnøIsbreKant>>
+|===
+[cols="20,80"]
+|===
+|*Rollenavn:* 
+|*avgrensesAvVannFiktivGrense*
+ 
+|Definisjon: 
+|delelinjer mellom tilstøtende isbreflater
+ 
+|Multiplisitet: 
+|[0..*]
+ 
+|Til klasse
+|<<vannfiktivgrense,«FeatureType» VannFiktivGrense>>
 |===
  
 [discrete]
@@ -1853,15 +1868,15 @@ SOSI_navn: SLUTTDATO +
 |Subtyper:
 |<<kvalitetopsjonell,«FeatureType» KvalitetOpsjonell>> +
 <<kvalitetpåkrevd,«FeatureType» KvalitetPåkrevd>> +
-<<kanal,«FeatureType» Kanal>> +
 <<snøisbre,«FeatureType» SnøIsbre>> +
-<<innsjø,«FeatureType» Innsjø>> +
 <<havflate,«FeatureType» Havflate>> +
+<<innsjø,«FeatureType» Innsjø>> +
 <<elv,«FeatureType» Elv>> +
-|Realisering av: 
-|«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
+<<kanal,«FeatureType» Kanal>> +
 |Realisering av: 
 |/SOSI Model/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» Fellesegenskaper +
+|Realisering av: 
+|«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
 |===
  
 '''
@@ -1900,21 +1915,21 @@ SOSI_navn: KVALITET +
 |<<fellesegenskaper,«FeatureType» Fellesegenskaper>>
  
 |Subtyper:
-|<<innsjøkant,«FeatureType» Innsjøkant>> +
-<<kystkonturtekniskeanlegg,«FeatureType» KystkonturTekniskeAnlegg>> +
-<<kanalkant,«FeatureType» Kanalkant>> +
-<<snøisbrekant,«FeatureType» SnøIsbreKant>> +
-<<elvbekk,«FeatureType» ElvBekk>> +
-<<flomløpkant,«FeatureType» Flomløpkant>> +
-<<kanalgrøft,«FeatureType» KanalGrøft>> +
-<<elvekant,«FeatureType» Elvekant>> +
+|<<kystkonturtekniskeanlegg,«FeatureType» KystkonturTekniskeAnlegg>> +
 <<skjær,«FeatureType» Skjær>> +
-<<veggrøftåpen,«FeatureType» VeggrøftÅpen>> +
+<<snøisbrekant,«FeatureType» SnøIsbreKant>> +
+<<kanalgrøft,«FeatureType» KanalGrøft>> +
+<<elvbekk,«FeatureType» ElvBekk>> +
+<<kanalkant,«FeatureType» Kanalkant>> +
+<<innsjøkant,«FeatureType» Innsjøkant>> +
 <<kystkontur,«FeatureType» Kystkontur>> +
-|Realisering av: 
-|«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
+<<elvekant,«FeatureType» Elvekant>> +
+<<flomløpkant,«FeatureType» Flomløpkant>> +
+<<veggrøftåpen,«FeatureType» VeggrøftÅpen>> +
 |Realisering av: 
 |/SOSI Model/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» KvalitetPåkrevd +
+|Realisering av: 
+|«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
 |===
  
 '''

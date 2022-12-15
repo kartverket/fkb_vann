@@ -991,7 +991,7 @@
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[0..*]
+|[0..1]
  
 |===
  
