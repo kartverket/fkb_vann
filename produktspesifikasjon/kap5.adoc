@@ -28,7 +28,7 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |FKB-Vann
  
 |SOSI_modellstatus
-|utkast
+|gyldig
  
 |SOSI_spesifikasjonstype
 |produktspesifikasjon
