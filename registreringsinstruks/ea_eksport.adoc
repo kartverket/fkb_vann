@@ -1140,8 +1140,8 @@ image::figurer/kanalkant_ulike_vannstandsnivaaer.png[link=figurer/kanalkant_ulik
 |[0..1]
  
 |grense
-|Punkt
-|.PUNKT
+|Kurve
+|.KURVE
 |[1..1]
  
 |medium
@@ -2771,6 +2771,22 @@ Konnekteringslenker registreres vanligvis ikke fotogrammetrisk.
 
 
 
+ 
+ 
+'''
+.Eksempel på bruk av objekttype KonnekteringVann over myr der forløp er ukjent
+image::figurer/konnekteringvann_1.png[link=figurer/konnekteringvann_1.png, Alt="Eksempel på bruk av objekttype KonnekteringVann over myr der forløp er ukjent"]
+ 
+ 
+'''
+.Eksempel på bruk av objekttype KonnekteringVann over myr der forløp er ukjent
+image::figurer/konnekteringvann_2.png[link=figurer/konnekteringvann_2.png, Alt="Eksempel på bruk av objekttype KonnekteringVann over myr der forløp er ukjent"]
+ 
+ 
+'''
+.Eksempel på bruk av objekttype KonnekteringVann under bebyggelese der forløp er ukjent
+image::figurer/konnekteringvann_3.png[link=figurer/konnekteringvann_3.png, Alt="Eksempel på bruk av objekttype KonnekteringVann under bebyggelese der forløp er ukjent"]
+ 
  
  
 [discrete]
