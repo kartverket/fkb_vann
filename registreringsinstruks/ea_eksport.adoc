@@ -2574,6 +2574,9 @@ Det skal lages nodepunkt mot objekttypene Elvekant/Kanalkant. Der det er naturli
 
 Kan v&#230;re med p&#229; &#229; avgrense objekttypene Elv og Kanal.
 
+===== VannFiktivGrense med vannSperretype "isbrelinjeFiktiv"
+Kan brukes i de tilfeller det er aktuelt &#229; dele opp en Isbre i mindre deler. 
+
 
 ===== VannFiktivGrense med vannSperretype "havlinjeFiktiv"
 Kan brukes i de tilfeller det er aktuelt &#229; dele opp en havflate i mindre deler
