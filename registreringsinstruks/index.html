@@ -580,6 +580,9 @@ I spesifikasjonen er det spesifisert minstestørrelser for øyer og vann. Dersom
 <li>
 <p>Lagt inn beskrivelse av bruk av vannsperretype isbrelinjeFiktiv</p>
 </li>
+<li>
+<p>Lagt inn endring på tilleggsinformasjon for fotogrammetrisk ajourføring. Objekttype KonnekteringVann skal registreres fotogrammetrisk når vann renner gjennom demning.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -4313,14 +4316,13 @@ Referanse i grunnriss og h&#248;yde er lik innsj&#248;kantens nodepunkt.</p>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_18" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
-<p>Benyttes for &#229; lage sammenhengende vannregistrering i omr&#229;der der geometrien ikke er sammenhengende.
-Kan brukes for &#229; knytte sammen bekkeforl&#248;p over dyrket mark, myromr&#229;der og liknende.</p>
+<p>Benyttes for &#229; lage sammenhengende registrering mellom vannveger som &#229;penbart henger sammen, men der forl&#248;p er ukjent. Objekttypen kan brukes for &#229; knytte sammen vannveger gjennom bygningsmessig anlegg, dyrket mark, myromr&#229;der og liknende.</p>
 </div>
 <div class="paragraph">
 <p>Det skal lages nodepunkt mot tilst&#248;tende vannobjekter. Der det er naturlig lages det nodepunkt i 3D.</p>
 </div>
 <div class="paragraph">
-<p>Konnekteringslenker registreres vanligvis ikke fotogrammetrisk.</p>
+<p>Ved fotogrammetrisk ajourf&#248;ring skal vann som renner gjennom demning alltid registreres som objekttype <em>KonnekteringVann</em> og medium B. Utover dette skal objekttype <em>KonnekteringVann</em> ikke registreres fotogrammetrisk, med mindre annet er avtalt</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -4342,6 +4344,13 @@ Kan brukes for &#229; knytte sammen bekkeforl&#248;p over dyrket mark, myromr&#2
 <a class="image" href="figurer/konnekteringvann_3.png"><img src="figurer/konnekteringvann_3.png" alt="konnekteringvann 3"></a>
 </div>
 <div class="title">Figur 29. Eksempel på bruk av objekttype KonnekteringVann under bebyggelese der forløp er ukjent</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figuerer/konnekteringvann_4.png"><img src="figurer/konnekteringvann_4.png" alt="konnekteringvann 4"></a>
+</div>
+<div class="title">Figur 30. Eksempel på bruk av objekttype KonnekteringVann gjennom demning</div>
 </div>
 <h4 id="_føringer_18" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -4924,14 +4933,14 @@ Dersom 50 % eller mer av innsjøkanten/kystkonturen i et område ligger i terren
 <div class="content">
 <a class="image" href="figurer/ForingGeometrityper_1.png"><img src="figurer/ForingGeometrityper_1.png" alt="ForingGeometrityper 1"></a>
 </div>
-<div class="title">Figur 30. Eksempel på registrering etter føringer gitt i dette kapittel i FKB-C. Vannvegen registreres som geometritype flate fra og med første gang vannvegen er bredere enn minstestørrelse 3 meter for strekk &gt; 10 meter og gjennomføres konsekvent som dette nedstrøms.</div>
+<div class="title">Figur 31. Eksempel på registrering etter føringer gitt i dette kapittel i FKB-C. Vannvegen registreres som geometritype flate fra og med første gang vannvegen er bredere enn minstestørrelse 3 meter for strekk &gt; 10 meter og gjennomføres konsekvent som dette nedstrøms.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/ForingGeometrityper_2.png"><img src="figurer/ForingGeometrityper_2.png" alt="ForingGeometrityper 2"></a>
 </div>
-<div class="title">Figur 31. Eksempel på hvordan registrering ikke skal gjøres. I eksempelet skifter representasjonen av vannvegen geometritype slavisk når vannbredden varierer omkring minstestørrelsen 3 meter (FKB-C).</div>
+<div class="title">Figur 32. Eksempel på hvordan registrering ikke skal gjøres. I eksempelet skifter representasjonen av vannvegen geometritype slavisk når vannbredden varierer omkring minstestørrelsen 3 meter (FKB-C).</div>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -5116,7 +5125,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-10 11:54:59 +0100
+Last updated 2023-11-14 08:46:18 +0100
 </div>
 </div>
 </body>

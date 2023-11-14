@@ -2794,7 +2794,7 @@ image::figurer/konnekteringvann_3.png[link=figurer/konnekteringvann_3.png, Alt="
  
 '''
 .Eksempel på bruk av objekttype KonnekteringVann gjennom demning
-image::figuerer/konnekteringvann_4.png[link=figuerer/konnekteringvann_4.png, Alt="Eksempel på bruk av objekttype KonnekteringVann gjennom demning"]
+image::figurer/konnekteringvann_4.png[link=figuerer/konnekteringvann_4.png, Alt="Eksempel på bruk av objekttype KonnekteringVann gjennom demning"]
  
  
  
