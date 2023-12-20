@@ -226,8 +226,8 @@ MEDIUM U benyttes p&#229; kystkontur som g&#229;r under terreng, for eksempel i 
  
  
 '''
-.Illustrasjon av Obekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg
-image::figurer/KaiBrygge1_BygnAnlegg_Vann.png[link=figurer/KaiBrygge1_BygnAnlegg_Vann.png, Alt="Illustrasjon av Obekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg"]
+.Illustrasjon av objekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg
+image::figurer/KaiBrygge1_BygnAnlegg_Vann.png[link=figurer/KaiBrygge1_BygnAnlegg_Vann.png, Alt="Illustrasjon av objekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg"]
  
  
  
