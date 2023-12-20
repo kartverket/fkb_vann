@@ -212,17 +212,23 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
-Benyttes der kystkonturen f&#248;lger tekniske anlegg som for eksempel kaier.
+Benyttes der kystkonturen f&#248;lger tekniske anlegg som for eksempel kaier. Objekttypen skal registreres og f&#248;lge det tekniske anlegget uavhengig av f&#248;ringer om minstem&#229;l for det tekniske anlegget i FKB-BygningsmessigAnlegg.
 
-Det skal v&#230;re konstant h&#248;yde p&#229; kystkonturen.
+Det skal v&#230;re konstant h&#248;yde p&#229; KystkonturTekniskeAnlegg.
 
 KystkonturTekniskeAnlegg skal v&#230;re med p&#229; &#229; avgrense havflate.
 
 Merknader:
 Det skal bearbeides nodepunkt inntil Kystkontur. Nodepunktene dannes i 3D der dette er naturlig.
-KystkonturTekniskeAnlegg skal om mulig konnekteres til det tekniske anlegget i 2 dimensjoner. KystkonturTekniskeAnlegg skal (vanligvis) ha samme grunnrisskoordinater som objektet, men med riktig vannh&#248;yde. 
+KystkonturTekniskeAnlegg skal om mulig konnekteres til det tekniske anlegget i 2 dimensjoner. KystkonturTekniskeAnlegg skal ha samme grunnrisskoordinater som objektet, men med riktig vannh&#248;yde. 
 
 MEDIUM U benyttes p&#229; kystkontur som g&#229;r under terreng, for eksempel i kulvert. Skal ikke benyttes ved bruer. 
+ 
+ 
+'''
+.Illustrasjon av Obekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg
+image::figurer/KaiBrygge1_BygnAnlegg_Vann.png[link=figurer/KaiBrygge1_BygnAnlegg_Vann.png, Alt="Illustrasjon av Obekttype KystkonturTekniskAnlegg registrert for teknisk anlegg selv om teknisk anlegg er under minstemål i FKB-BygnAnlegg"]
+ 
  
  
 [discrete]
@@ -2794,7 +2800,7 @@ image::figurer/konnekteringvann_3.png[link=figurer/konnekteringvann_3.png, Alt="
  
 '''
 .Eksempel på bruk av objekttype KonnekteringVann gjennom demning
-image::figurer/konnekteringvann_4.png[link=figuerer/konnekteringvann_4.png, Alt="Eksempel på bruk av objekttype KonnekteringVann gjennom demning"]
+image::figurer/konnekteringvann_4.png[link=figurer/konnekteringvann_4.png, Alt="Eksempel på bruk av objekttype KonnekteringVann gjennom demning"]
  
  
  
