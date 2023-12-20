@@ -5,13 +5,9 @@ Geovekst
 ifdef::backend-pdf[{empty} +]
 
 ****
-ifeval::["{backend}" == "html5"]
 
-[TIP]
-//.Nedlasting av dokumentet
-Dette dokumentet kan også lastes ned link:{reginstr-url}/{reginstr-type}_registreringsinstruks_{datasett}_{versjon}_{underversjon}.pdf[som PDF].
-
-endif::[]
+[WARNING] 
+Denne versjonen er erstattet av versjon {reginstrbase-url}{datasett}/{versjon}/{reginstr-type}_2024-01-01
 
 *Publisert*: {publisert} +
 *Denne versjonen finnes på*: {reginstr-url} +
