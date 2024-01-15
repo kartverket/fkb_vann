@@ -1,5 +1,5 @@
 // Start of UML-model
-=== Pakke: «ApplicationSchema» FKB-Vann-5.0.1
+=== Pakke: «ApplicationSchema» Utkast-FKB-Vann-5.1
 *Definisjon:* Spesifikasjonen beskriver geografisk beliggenhet, forløp og form for bekker, elver, kanaler, grøfter, innsjøer, isbreer og den topografiske delen av kyst og sjø. 
 Kystkonturen er en del av FKB-Vann og fra og med FKB-Vann versjon 4.6 forvaltes Primærdata Kystkontur som en del av FKB-Vann.
 
@@ -16,7 +16,7 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |"Contains for instance coastlines, shoreline constructions, rivers, canals, lakes, glaciers"@en
  
 |designation
-|"Product specification FKB-Vann 5.0"@en
+|"Product specification FKB-Vann 5.1"@en
  
 |language
 |no
@@ -28,7 +28,7 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |FKB-Vann
  
 |SOSI_modellstatus
-|gyldig
+|utkast
  
 |SOSI_spesifikasjonstype
 |produktspesifikasjon
@@ -37,10 +37,10 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 |5.0
  
 |targetNamespace
-|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0
+|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.1
  
 |version
-|5.0.1
+|5.1
  
 |xmlns
 |app
@@ -56,37 +56,37 @@ FKB-Vann versjon 5.0 baserer seg på de generelle konseptene fra SOSI del 1 vers
 '''
  
 .Realisering av objekttyper 
-image::diagrammer/Realisering av objekttyper.png[link=diagrammer/Realisering av objekttyper.png, alt="Diagram med navn Realisering av objekttyper som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Realisering av objekttyper.png[link=diagrammer/Realisering av objekttyper.png, Alt="Diagram med navn Realisering av objekttyper som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Oversiktsdiagram FKB-Vann-5.0 
-image::diagrammer/Oversiktsdiagram FKB-Vann-5.0.png[link=diagrammer/Oversiktsdiagram FKB-Vann-5.0.png, alt="Diagram med navn Oversiktsdiagram FKB-Vann-5.0 som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Oversiktsdiagram FKB-Vann-5.0.png[link=diagrammer/Oversiktsdiagram FKB-Vann-5.0.png, Alt="Diagram med navn Oversiktsdiagram FKB-Vann-5.0 som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Pakkerealisering 
-image::diagrammer/Pakkerealisering.png[link=diagrammer/Pakkerealisering.png, alt="Diagram med navn Pakkerealisering som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Pakkerealisering.png[link=diagrammer/Pakkerealisering.png, Alt="Diagram med navn Pakkerealisering som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Hoveddiagram - Flateobjekter 
-image::diagrammer/Hoveddiagram - Flateobjekter.png[link=diagrammer/Hoveddiagram - Flateobjekter.png, alt="Diagram med navn Hoveddiagram - Flateobjekter som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Hoveddiagram - Flateobjekter.png[link=diagrammer/Hoveddiagram - Flateobjekter.png, Alt="Diagram med navn Hoveddiagram - Flateobjekter som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Hoveddiagram - Flateavgrensninger 
-image::diagrammer/Hoveddiagram - Flateavgrensninger.png[link=diagrammer/Hoveddiagram - Flateavgrensninger.png, alt="Diagram med navn Hoveddiagram - Flateavgrensninger som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Hoveddiagram - Flateavgrensninger.png[link=diagrammer/Hoveddiagram - Flateavgrensninger.png, Alt="Diagram med navn Hoveddiagram - Flateavgrensninger som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Hoveddiagram - Andre objekter 
-image::diagrammer/Hoveddiagram - Andre objekter.png[link=diagrammer/Hoveddiagram - Andre objekter.png, alt="Diagram med navn Hoveddiagram - Andre objekter som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Hoveddiagram - Andre objekter.png[link=diagrammer/Hoveddiagram - Andre objekter.png, Alt="Diagram med navn Hoveddiagram - Andre objekter som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Arv av fellesegenskaper 
-image::diagrammer/Arv av fellesegenskaper.png[link=diagrammer/Arv av fellesegenskaper.png, alt="Diagram med navn Arv av fellesegenskaper som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Arv av fellesegenskaper.png[link=diagrammer/Arv av fellesegenskaper.png, Alt="Diagram med navn Arv av fellesegenskaper som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
@@ -97,7 +97,7 @@ image::diagrammer/Arv av fellesegenskaper.png[link=diagrammer/Arv av fellesegens
  
 '''
 .Illustrasjon av objekttype Kystkontur
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkontur.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkontur.png, alt="Bilde av et eksempel på objekttypen Kystkontur, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkontur.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkontur.png, Alt="Bilde av et eksempel på objekttypen Kystkontur, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -194,7 +194,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype KystkonturTekniskeAnlegg
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkonturtekniskeanlegg.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkonturtekniskeanlegg.png, alt="Bilde av et eksempel på objekttypen KystkonturTekniskeAnlegg, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkonturtekniskeanlegg.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kystkonturtekniskeanlegg.png, Alt="Bilde av et eksempel på objekttypen KystkonturTekniskeAnlegg, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -314,7 +314,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype Skjær
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_skjer.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_skjer.png, alt="Bilde av et eksempel på objekttypen Skjær, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_skjer.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_skjer.png, Alt="Bilde av et eksempel på objekttypen Skjær, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -371,7 +371,7 @@ SOSI_navn: HØYDE +
  
 '''
 .Illustrasjon av objekttype Havflate
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_havflate.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_havflate.png, alt="Bilde av et eksempel på objekttypen Havflate, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_havflate.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_havflate.png, Alt="Bilde av et eksempel på objekttypen Havflate, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -477,9 +477,9 @@ SOSI_navn: MEDIUM +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Område-geometrien skal være lik summen av geometriene til de assosierte avgrensningsobjektene
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Område
  
 |===
 [cols="20,80"]
@@ -489,9 +489,9 @@ SOSI_navn: MEDIUM +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Dersom det finnes område-geometri skal posisjon-geometrien ligge innenfor område-geometrien
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Dersom det finnes område
  
 |===
  
@@ -515,7 +515,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype Elvekant
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvekant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvekant.png, alt="Bilde av et eksempel på objekttypen Elvekant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvekant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvekant.png, Alt="Bilde av et eksempel på objekttypen Elvekant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -573,7 +573,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype Elv
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elv.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elv.png, alt="Bilde av et eksempel på objekttypen Elv, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elv.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elv.png, Alt="Bilde av et eksempel på objekttypen Elv, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -685,9 +685,9 @@ SOSI_navn: MEDIUM +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Område-geometrien skal være lik summen av geometriene til de assosierte avgrensningsobjektene
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Område
  
 |===
 [cols="20,80"]
@@ -697,9 +697,9 @@ SOSI_navn: MEDIUM +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Dersom det finnes område-geometri skal posisjon-geometrien ligge innenfor område-geometrien
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Dersom det finnes område
  
 |===
  
@@ -723,7 +723,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype Kanalkant
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalkant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalkant.png, alt="Bilde av et eksempel på objekttypen Kanalkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalkant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalkant.png, Alt="Bilde av et eksempel på objekttypen Kanalkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -781,7 +781,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype Kanal
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanal.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanal.png, alt="Bilde av et eksempel på objekttypen Kanal, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanal.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanal.png, Alt="Bilde av et eksempel på objekttypen Kanal, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -894,9 +894,9 @@ SOSI_navn: VANNBR +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Område-geometrien skal være lik summen av geometriene til de assosierte avgrensningsobjektene
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Område
  
 |===
 [cols="20,80"]
@@ -906,9 +906,9 @@ SOSI_navn: VANNBR +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Dersom det finnes område-geometri skal posisjon-geometrien ligge innenfor område-geometrien
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Dersom det finnes område
  
 |===
  
@@ -935,7 +935,7 @@ for innsjø som er oppdemt/regulert skal konturlinjen ligge i høydenivået for 
  
 '''
 .Illustrasjon av objekttype Innsjøkant
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjokant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjokant.png, alt="Bilde av et eksempel på objekttypen Innsjøkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjokant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjokant.png, Alt="Bilde av et eksempel på objekttypen Innsjøkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1012,7 +1012,7 @@ SOSI_navn: HØYDE +
  
 '''
 .Illustrasjon av objekttype Innsjø
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjo.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjo.png, alt="Bilde av et eksempel på objekttypen Innsjø, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjo.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_innsjo.png, Alt="Bilde av et eksempel på objekttypen Innsjø, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1160,9 +1160,9 @@ SOSI_navn: EKSTERNPEKER +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Område-geometrien skal være lik summen av geometriene til de assosierte avgrensningsobjektene
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Område
  
 |===
 [cols="20,80"]
@@ -1172,9 +1172,9 @@ SOSI_navn: EKSTERNPEKER +
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Dersom det finnes område-geometri skal posisjon-geometrien ligge innenfor område-geometrien
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Dersom det finnes område
  
 |===
  
@@ -1198,7 +1198,7 @@ SOSI_navn: EKSTERNPEKER +
  
 '''
 .Illustrasjon av objekttype ElvBekk
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvbekk.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvbekk.png, alt="Bilde av et eksempel på objekttypen ElvBekk, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvbekk.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_elvbekk.png, Alt="Bilde av et eksempel på objekttypen ElvBekk, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1276,7 +1276,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype KanalGrøft
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalgroft.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalgroft.png, alt="Bilde av et eksempel på objekttypen KanalGrøft, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalgroft.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_kanalgroft.png, Alt="Bilde av et eksempel på objekttypen KanalGrøft, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1354,7 +1354,7 @@ SOSI_navn: MEDIUM +
  
 '''
 .Illustrasjon av objekttype VeggrøftÅpen
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_veggroftapen.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_veggroftapen.png, alt="Bilde av et eksempel på objekttypen VeggrøftÅpen, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_veggroftapen.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_veggroftapen.png, Alt="Bilde av et eksempel på objekttypen VeggrøftÅpen, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1392,7 +1392,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 '''
 .Illustrasjon av objekttype SnøIsbreKant
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbrekant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbrekant.png, alt="Bilde av et eksempel på objekttypen SnøIsbreKant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbrekant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbrekant.png, Alt="Bilde av et eksempel på objekttypen SnøIsbreKant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1430,7 +1430,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 '''
 .Illustrasjon av objekttype SnøIsbre
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbre.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbre.png, alt="Bilde av et eksempel på objekttypen SnøIsbre, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbre.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_snoisbre.png, Alt="Bilde av et eksempel på objekttypen SnøIsbre, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1502,9 +1502,9 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Område-geometrien skal være lik summen av geometriene til de assosierte avgrensningsobjektene
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Område
  
 |===
 [cols="20,80"]
@@ -1514,9 +1514,9 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 |Beskrivelse: 
 |
---ingen OCL, restriksjonen implementeres manuelt
- + 
---Dersom det finnes område-geometri skal posisjon-geometrien ligge innenfor område-geometrien
+--ingen OCL  restriksjonen implementeres manuelt
+
+--Dersom det finnes område
  
 |===
  
@@ -1540,7 +1540,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 '''
 .Illustrasjon av objekttype Flomløpkant
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_flomlopkant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_flomlopkant.png, alt="Bilde av et eksempel på objekttypen Flomløpkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_flomlopkant.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_flomlopkant.png, Alt="Bilde av et eksempel på objekttypen Flomløpkant, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1578,7 +1578,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
  
 '''
 .Illustrasjon av objekttype VannFiktivGrense
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_vannfiktivgrense.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_vannfiktivgrense.png, alt="Bilde av et eksempel på objekttypen VannFiktivGrense, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_vannfiktivgrense.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_vannfiktivgrense.png, Alt="Bilde av et eksempel på objekttypen VannFiktivGrense, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1634,7 +1634,7 @@ SOSI_navn: VANN_SPERRETYPE +
  
 '''
 .Illustrasjon av objekttype KonnekteringVann
-image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_konnekteringvann.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_konnekteringvann.png, alt="Bilde av et eksempel på objekttypen KonnekteringVann, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
+image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_konnekteringvann.png[link=http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/objtype_konnekteringvann.png, Alt="Bilde av et eksempel på objekttypen KonnekteringVann, eventuelt med påtegning av streker som viser hvor geometrien til objektet skal måles fra."]
 [discrete]
 ===== Egenskaper
 [cols="20,80"]
@@ -1691,17 +1691,17 @@ Kopieres direkte inn i de enkelte FKB-datasettene
 '''
  
 .Oversiktsdiagram Fellesegenskaper 
-image::diagrammer/Oversiktsdiagram Fellesegenskaper.png[link=diagrammer/Oversiktsdiagram Fellesegenskaper.png, alt="Diagram med navn Oversiktsdiagram Fellesegenskaper som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Oversiktsdiagram Fellesegenskaper.png[link=diagrammer/Oversiktsdiagram Fellesegenskaper.png, Alt="Diagram med navn Oversiktsdiagram Fellesegenskaper som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Realisering fra SOSI generell del 
-image::diagrammer/Realisering fra SOSI generell del.png[link=diagrammer/Realisering fra SOSI generell del.png, alt="Diagram med navn Realisering fra SOSI generell del som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Realisering fra SOSI generell del.png[link=diagrammer/Realisering fra SOSI generell del.png, Alt="Diagram med navn Realisering fra SOSI generell del som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
 .Hoveddiagram Posisjonskvalitet 
-image::diagrammer/Hoveddiagram Posisjonskvalitet.png[link=diagrammer/Hoveddiagram Posisjonskvalitet.png, alt="Diagram med navn Hoveddiagram Posisjonskvalitet som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Hoveddiagram Posisjonskvalitet.png[link=diagrammer/Hoveddiagram Posisjonskvalitet.png, Alt="Diagram med navn Hoveddiagram Posisjonskvalitet som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
@@ -1874,7 +1874,7 @@ SOSI_navn: SLUTTDATO +
 <<elv,«FeatureType» Elv>> +
 <<kanal,«FeatureType» Kanal>> +
 |Realisering av: 
-|/SOSI Model/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» Fellesegenskaper +
+|/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» Fellesegenskaper +
 |Realisering av: 
 |«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
 |===
@@ -1927,7 +1927,7 @@ SOSI_navn: KVALITET +
 <<flomløpkant,«FeatureType» Flomløpkant>> +
 <<veggrøftåpen,«FeatureType» VeggrøftÅpen>> +
 |Realisering av: 
-|/SOSI Model/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» KvalitetPåkrevd +
+|/SOSI Generell objektkatalog/FKB Generell del/FKB Generell del-5.0/Generelle elementer::«FeatureType» KvalitetPåkrevd +
 |Realisering av: 
 |«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
 |===
@@ -2373,7 +2373,7 @@ Veg på bro, i tunnel, inne i et bygningsmessig anlegg, etc.
 '''
  
 .Hoveddiagram for datatyper og kodelister 
-image::diagrammer/Hoveddiagram for datatyper og kodelister.png[link=diagrammer/Hoveddiagram for datatyper og kodelister.png, alt="Diagram med navn Hoveddiagram for datatyper og kodelister som viser UML-klasser beskrevet i teksten nedenfor."]
+image::diagrammer/Hoveddiagram for datatyper og kodelister.png[link=diagrammer/Hoveddiagram for datatyper og kodelister.png, Alt="Diagram med navn Hoveddiagram for datatyper og kodelister som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
