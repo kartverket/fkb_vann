@@ -51,7 +51,7 @@ endif::[]
 - {prodspek-url}/{versjon}[HTML-dokument] +
 - {uml-url}[HTML-visning av UML-modellen] +
 *Nyeste versjon finnes på*: {prodspek-url} +
-*Denne versjonen erstatter*: {prodspek-forrige-url}[{datasett} {versjon-forrige}] +
+*Denne versjonen erstatter*: {prodspek-url}/{versjon-forrige}[{datasett} {versjon-forrige}] +
 *Faglig godkjent av*: Geovekst +
 *Formelt godkjent av*: Kartverket +
 
