@@ -22,7 +22,7 @@
 [#NGIS]
 *NGIS*: https://www.kartverket.no/geodataarbeid/ngis[Nasjonalt Geografisk informasjonssystem]. En generell modellbasert forvaltningsplattform for felles forvaltning av geografiske data i en sentral base gjennom åpne API-er som blant annet brukes i Sentral FKB. https://github.com/kartverket/SFKB-API[NGIS-OpenAPI] er det nye grensesnittet for oppdatering av NGIS. 
 
-*NRL*: Nasjonalt register for luftfartshindre 
+*NRL*: Nasjonalt register over luftfartshindre
 
 *NVDB*: Nasjonal vegdatabank. Forvaltningsløsning for vegnettet og tilhørende informasjon eid av Statens vegvesen.
 
