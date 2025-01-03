@@ -49,6 +49,18 @@ image::figurer/kystkontur_ved_kystkonturtekniskeanlegg.png[link=figurer/kystkont
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Terreng/vannkant i riktig høyde, se høydereferanse
  
@@ -69,18 +81,6 @@ image::figurer/kystkontur_ved_kystkonturtekniskeanlegg.png[link=figurer/kystkont
  
 |FKB registreringsmetode
 |Kontinuerlig registrering
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -235,15 +235,6 @@ image::figurer/KaiBrygge1_BygnAnlegg_Vann.png[link=figurer/KaiBrygge1_BygnAnlegg
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Terreng/vannkant i riktig høyde, se høydereferanse
- 
-|FKB høydereferanse
-|Midlere høyvann (MHV)
- 
-|FKB registreringsmetode
-|Enkeltpunkt i sekvens
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -255,6 +246,15 @@ image::figurer/KaiBrygge1_BygnAnlegg_Vann.png[link=figurer/KaiBrygge1_BygnAnlegg
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Terreng/vannkant i riktig høyde, se høydereferanse
+ 
+|FKB høydereferanse
+|Midlere høyvann (MHV)
+ 
+|FKB registreringsmetode
+|Enkeltpunkt i sekvens
  
 |===
  
@@ -400,6 +400,18 @@ Kun skj&#230;r som har h&#248;yde lik eller h&#248;yere enn den lokale MHV-verdi
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Senter av skjæret
  
@@ -420,18 +432,6 @@ Kun skj&#230;r som har h&#248;yde lik eller h&#248;yere enn den lokale MHV-verdi
  
 |FKB registreringsmetode
 |Enkeltpunkt
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -564,9 +564,6 @@ MEDIUM U benyttes p&#229; havflater som ligger under terreng, for eksempel i kul
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB registreringsmetode
-|Enkeltpunkt
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -578,6 +575,9 @@ MEDIUM U benyttes p&#229; havflater som ligger under terreng, for eksempel i kul
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB registreringsmetode
+|Enkeltpunkt
  
 |===
  
@@ -711,6 +711,18 @@ image::figurer/elvekant_ulike_vannstandsnivaaer.png[link=figurer/elvekant_ulike_
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Opsjonell registrering
+ 
+|FKB-B
+|Opsjonell registrering
+ 
+|FKB-C
+|Opsjonell registrering
+ 
+|FKB-D
+|Opsjonell registrering
+ 
 |FKB grunnrissreferanse
 |Der hvor stor vannføring i elva normalt går. Dette vil ofte være overgangen mellom vegetasjon og sand/grus/steiner.
  
@@ -731,18 +743,6 @@ image::figurer/elvekant_ulike_vannstandsnivaaer.png[link=figurer/elvekant_ulike_
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens der konturen går inntil kai o.l. og der den går i rette strekninger. Kontinuerlig registrering brukes der konturen ikke følger kai o.l.
- 
-|FKB-A
-|Opsjonell registrering
- 
-|FKB-B
-|Opsjonell registrering
- 
-|FKB-C
-|Opsjonell registrering
- 
-|FKB-D
-|Opsjonell registrering
  
 |===
  
@@ -875,18 +875,6 @@ MEDIUM U benyttes p&#229; elv som ligger under terreng, for eksempel under veg. 
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|Naturlig rennende vann med bredde over 1 meter (flate med vannBredde 2 - 5)
- 
-|FKB-B minstestørrelse
-|Naturlig rennende vann med bredde over 1 meter (flate med vannBredde 2 - 5)
- 
-|FKB-C minstestørrelse
-|Naturlig rennende vann med bredde over 3 meter (flate med vannBredde 3 - 5)
- 
-|FKB-D minstestørrelse
-|Naturlig rennende vann med bredde over 15 meter (flate med vannBredde 4 - 5)
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -898,6 +886,18 @@ MEDIUM U benyttes p&#229; elv som ligger under terreng, for eksempel under veg. 
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|Naturlig rennende vann med bredde over 1 meter (flate med vannBredde 2 - 5)
+ 
+|FKB-B minstestørrelse
+|Naturlig rennende vann med bredde over 1 meter (flate med vannBredde 2 - 5)
+ 
+|FKB-C minstestørrelse
+|Naturlig rennende vann med bredde over 3 meter (flate med vannBredde 3 - 5)
+ 
+|FKB-D minstestørrelse
+|Naturlig rennende vann med bredde over 15 meter (flate med vannBredde 4 - 5)
  
 |===
  
@@ -1018,6 +1018,18 @@ image::figurer/kanalkant_ulike_vannstandsnivaaer.png[link=figurer/kanalkant_ulik
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Der hvor normal stor vannføring i kanalen går
  
@@ -1038,18 +1050,6 @@ image::figurer/kanalkant_ulike_vannstandsnivaaer.png[link=figurer/kanalkant_ulik
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens der konturen går inntil kai o.l. og der den går i rette strekninger. Kontinuerlig registrering brukes der konturen ikke følger kai o.l.
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1182,18 +1182,6 @@ MEDIUM U benyttes p&#229; Kanal som ligger under terreng, for eksempel under veg
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|Kanal bredere enn 1 meter (vannBredde 2-5)
- 
-|FKB-B minstestørrelse
-|Kanal bredere enn 1 meter (vannBredde 2-5)
- 
-|FKB-C minstestørrelse
-|Kanal bredere enn 3 meter (vannBredde 3-5)
- 
-|FKB-D minstestørrelse
-|Kanal bredere enn 15 meter (vannBredde 4-5)
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -1205,6 +1193,18 @@ MEDIUM U benyttes p&#229; Kanal som ligger under terreng, for eksempel under veg
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|Kanal bredere enn 1 meter (vannBredde 2-5)
+ 
+|FKB-B minstestørrelse
+|Kanal bredere enn 1 meter (vannBredde 2-5)
+ 
+|FKB-C minstestørrelse
+|Kanal bredere enn 3 meter (vannBredde 3-5)
+ 
+|FKB-D minstestørrelse
+|Kanal bredere enn 15 meter (vannBredde 4-5)
  
 |===
  
@@ -1328,6 +1328,18 @@ MEDIUM U benyttes p&#229; Innsj&#248;kant som ligger under terreng, for eksempel
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Opsjonell registrering
+ 
+|FKB-B
+|Opsjonell registrering
+ 
+|FKB-C
+|Opsjonell registrering
+ 
+|FKB-D
+|Opsjonell registrering
+ 
 |FKB grunnrissreferanse
 |Terreng/vannkant i riktig høyde, se høydereferanse.
  
@@ -1348,18 +1360,6 @@ MEDIUM U benyttes p&#229; Innsj&#248;kant som ligger under terreng, for eksempel
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens der konturen går inntil kai o.l. og der den går i rette strekninger. Kontinuerlig registrering brukes der konturen ikke følger kai o.l.
- 
-|FKB-A
-|Opsjonell registrering
- 
-|FKB-B
-|Opsjonell registrering
- 
-|FKB-C
-|Opsjonell registrering
- 
-|FKB-D
-|Opsjonell registrering
  
 |===
  
@@ -1500,18 +1500,6 @@ MEDIUM U benyttes p&#229; del av Innsj&#248; som ligger under terreng, for eksem
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|Innsjøer og øyer over 10m2
- 
-|FKB-B minstestørrelse
-|Innsjøer og øyer over 20m2
- 
-|FKB-C minstestørrelse
-|Innsjøer og øyer over 100m2
- 
-|FKB-D minstestørrelse
-|Innsjøer og øyer over 100m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -1523,6 +1511,18 @@ MEDIUM U benyttes p&#229; del av Innsj&#248; som ligger under terreng, for eksem
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|Innsjøer og øyer over 10m2
+ 
+|FKB-B minstestørrelse
+|Innsjøer og øyer over 20m2
+ 
+|FKB-C minstestørrelse
+|Innsjøer og øyer over 100m2
+ 
+|FKB-D minstestørrelse
+|Innsjøer og øyer over 100m2
  
 |===
  
@@ -1636,6 +1636,8 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Vann/5.0/figurer/
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Ved fotogrammetrisk datafangst kan det v&#230;re vanskelig &#229; se ned til vannspeilet i enkelte tilfeller. Objekttype ElvBekk (midtlinje) skal likevel konstrueres s&#229; fullstendig og sammenhengende som mulig og kvalitetskodes deretter. Bekkeleier som tidvis er t&#248;rre, men godt synlig i flybildene og i terrenget skal konstrueres.
 
+F&#248;ringene om fullstendighet gjelder uavhengig av om det er bestilt opsjoner Stikkrenne og/eller Kulvert i FKB-BygnAnlegg. Dette inneb&#230;rer at vannveger under bakken i stikkrenner og kulverter skal registreres b&#229;de i FKB-Vann med medium U, og i FKB-BygnAnlegg n&#229;r disse opsjonene er bestilt. Dette for at vannettverket skal bli registrert sammenhengende i FKB-Vann.
+
 Merknad: Det skal etableres nodepunkt mellom ElvBekk (midtlinje) og andre tilst&#248;tende vannobjekter. Der det er naturlig skal det lages nodepunkt i 3D. 
 
 MEDIUM U benyttes p&#229; ElvBekk som ligger under terreng, for eksempel under veg. Skal ikke benyttes ved bruer.
@@ -1646,11 +1648,28 @@ MEDIUM U benyttes p&#229; ElvBekk som ligger under terreng, for eksempel under v
 image::figurer/elvbekk_senterlinje_ulike_vannstandsnivaaer.png[link=figurer/elvbekk_senterlinje_ulike_vannstandsnivaaer.png, Alt="Registrering av ElvBekk (senterlinje) ved ulike vannstandsnivåer."]
  
  
+'''
+.Eksempel på vannobjekt med medium U registrert sammen med stikkrenne
+image::figurer/vann_stikkrenner.png[link=figurer/vann_stikkrenner.png, Alt="Eksempel på vannobjekt med medium U registrert sammen med stikkrenne"]
+ 
+ 
  
 [discrete]
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Midten av elv/bekk
  
@@ -1671,18 +1690,6 @@ image::figurer/elvbekk_senterlinje_ulike_vannstandsnivaaer.png[link=figurer/elvb
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens for rette strekninger. Ellers benyttes  kontinuerlig registrering.
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1814,7 +1821,7 @@ Kanaler og gr&#248;fter som tidvis er t&#248;rre, men godt synlig i flybildene o
 
 Merknad: Det skal etableres nodepunkt mellom KanalGr&#248;ft (midtlinje) og andre tilst&#248;tende vannobjekter. Der det er naturlig skal det lages nodepunkt i 3D. 
 
-MEDIUM U benyttes p&#229; KanalGr&#248;ft som ligger under terreng, for eksempel under veg. Skal ikke benyttes ved bruer.
+MEDIUM U benyttes p&#229; KanalGr&#248;ft som ligger under terreng, for eksempel under veg. Skal ikke benyttes ved bruer. Se eksempel p&#229; registrering av vannobjekt med medium U sammen med Stikkrenne under objekttype ElvBekk
  
  
 '''
@@ -1827,6 +1834,18 @@ image::figurer/kanalgroft_senterlinje_ulike_vannstandsnivaaer.png[link=figurer/k
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Midten av kanal/grøft
  
@@ -1847,18 +1866,6 @@ image::figurer/kanalgroft_senterlinje_ulike_vannstandsnivaaer.png[link=figurer/k
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens brukes der det er rette strekninger.  Ellers kontinuerlig registrering.
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -1999,15 +2006,6 @@ Kun den delen av gr&#248;fta som g&#229;r parallelt med veg registreres som obje
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Midten av veggrøft
- 
-|FKB høydereferanse
-|Bunn veggrøft
- 
-|FKB registreringsmetode
-|Enkeltpunkt i sekvens
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2019,6 +2017,15 @@ Kun den delen av gr&#248;fta som g&#229;r parallelt med veg registreres som obje
  
 |FKB-D
 |Registreres ikke
+ 
+|FKB grunnrissreferanse
+|Midten av veggrøft
+ 
+|FKB høydereferanse
+|Bunn veggrøft
+ 
+|FKB registreringsmetode
+|Enkeltpunkt i sekvens
  
 |===
  
@@ -2147,15 +2154,6 @@ Sn&#248;IsbreKant skal avgrense objekttype Sn&#248;Isbre.
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB grunnrissreferanse
-|Terrenget på kanten av snø/isbre, i overgangen mot bart terreng  (eventuelt mot vann)
- 
-|FKB høydereferanse
-|Terrenget på kanten av snø/isbre, i overgangen mot bart terreng  (eventuelt mot vann)
- 
-|FKB registreringsmetode
-|Kontinuerlig registrering
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2167,6 +2165,15 @@ Sn&#248;IsbreKant skal avgrense objekttype Sn&#248;Isbre.
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB grunnrissreferanse
+|Terrenget på kanten av snø/isbre, i overgangen mot bart terreng  (eventuelt mot vann)
+ 
+|FKB høydereferanse
+|Terrenget på kanten av snø/isbre, i overgangen mot bart terreng  (eventuelt mot vann)
+ 
+|FKB registreringsmetode
+|Kontinuerlig registrering
  
 |===
  
@@ -2292,18 +2299,6 @@ Avgrenses av objekttype Sn&#248;IsbreKant
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|1000m2
- 
-|FKB-B minstestørrelse
-|1000m2
- 
-|FKB-C minstestørrelse
-|1000m2
- 
-|FKB-D minstestørrelse
-|1000m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2315,6 +2310,18 @@ Avgrenses av objekttype Sn&#248;IsbreKant
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|1000m2
+ 
+|FKB-B minstestørrelse
+|1000m2
+ 
+|FKB-C minstestørrelse
+|1000m2
+ 
+|FKB-D minstestørrelse
+|1000m2
  
 |===
  
@@ -2413,6 +2420,18 @@ Det skal lages nodepunkt med &#248;vrige vannobjekter. Der det er naturlig skal 
 ==== Føringer
 [cols="h,2"]
 |===
+|FKB-A
+|Påkrevd registrering
+ 
+|FKB-B
+|Påkrevd registrering
+ 
+|FKB-C
+|Påkrevd registrering
+ 
+|FKB-D
+|Påkrevd registrering
+ 
 |FKB grunnrissreferanse
 |Ytre grense av flomløp
  
@@ -2433,18 +2452,6 @@ Det skal lages nodepunkt med &#248;vrige vannobjekter. Der det er naturlig skal 
  
 |FKB registreringsmetode
 |Enkeltpunkt i sekvens
- 
-|FKB-A
-|Påkrevd registrering
- 
-|FKB-B
-|Påkrevd registrering
- 
-|FKB-C
-|Påkrevd registrering
- 
-|FKB-D
-|Påkrevd registrering
  
 |===
  
@@ -2636,9 +2643,6 @@ Kan v&#230;re med p&#229; &#229; avgrense objekttype Innsj&#248;.
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB registreringsmetode
-|Enkeltpunkt i sekvens
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -2650,6 +2654,9 @@ Kan v&#230;re med p&#229; &#229; avgrense objekttype Innsj&#248;.
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB registreringsmetode
+|Enkeltpunkt i sekvens
  
 |===
  
@@ -2808,9 +2815,6 @@ image::figurer/konnekteringvann_4.png[link=figurer/konnekteringvann_4.png, Alt="
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB registreringsmetode
-|Enkeltpunkt i sekvens
- 
 |FKB-A
 |Opsjonell registrering
  
@@ -2822,6 +2826,9 @@ image::figurer/konnekteringvann_4.png[link=figurer/konnekteringvann_4.png, Alt="
  
 |FKB-D
 |Opsjonell registrering
+ 
+|FKB registreringsmetode
+|Enkeltpunkt i sekvens
  
 |===
  
